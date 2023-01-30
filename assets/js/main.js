@@ -1,16 +1,12 @@
 //Input Variables
 const height = document.querySelector("#height");
-let heightInput = Number(height.value);
 const age = document.querySelector("#age");
-let ageInput = Number(age.value);
 const weight = document.querySelector("#weight");
-let weightInput = Number(weight.value);
 
 const female = document.querySelector("#female");
 const male = document.querySelector("#male");
 
-const activityList = document.querySelector("#activityList");
-let activityListInput = Number(activityList.value);
+const activityList = document.getElementById("activityList");
 
 const btn = document.querySelector(`input[type="submit"]`);
 
@@ -26,6 +22,10 @@ const gesamtKJ = document.querySelector("#gesamtKJ");
 
 function calc(event) {
     event.preventDefault();
+    let heightInput = Number(height.value);
+    let ageInput = Number(age.value);
+    let activityListInput = Number(activityList.value);
+    let weightInput = Number(weight.value);
 
     let grundumsatz = "";
 
