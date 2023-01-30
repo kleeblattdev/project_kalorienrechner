@@ -32,11 +32,6 @@ fieldset{
     border-radius: 3px;
     background-color: #F2E5E5;
     padding: 1rem 3rem;
-
-}
-
-fieldset article{
-    margin: 1rem 2rem;
 }
 
 
@@ -47,11 +42,22 @@ input[type="number"]{
     margin: auto;
 }
 
-div{
+div, article{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: baseline;
-    width: 15vw;
+    width: 30vw;
+}
+
+select {
+    border: none;
+    width: 200px;
+}
+
+select:focus{
+    min-width: 200px;
+    width: auto;
 }
 
 input[type="submit"] {
