@@ -39,11 +39,19 @@ fieldset article{
     margin: 1rem 2rem;
 }
 
+
 input[type="number"]{
     border: none;
     padding: 0.5rem 4rem;
     display: block;
     margin: auto;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 15vw;
 }
 
 input[type="submit"] {
