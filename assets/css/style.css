@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, label {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+fieldset article{
+    margin: 1rem 2rem;
+}
+
+section{
+    margin: 1rem;
+}
